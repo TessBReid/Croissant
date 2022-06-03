@@ -15,10 +15,19 @@ img {
   display: flex;
   margin: auto;
   width: 50%;
+  border-radius: 4px;
 }
 
 .site-pages {
   display: flex;
   justify-content: center;
   margin: 30px;
+}
+
+.site-pages a {
+  margin: 20px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: blue;
 }
